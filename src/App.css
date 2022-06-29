@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(171, 243, 243);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.crossed-line {
+  text-decoration: line-through;
+  color: black;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.btn {
+  background-color: pink;
+  margin-right: 5px;
+  cursor: pointer;
+}
+input[type="text"] {
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+.inside {
+  display: flex;
+}
+.list {
+  display: flexbox;
+  justify-content: center;
+}
+.sec_btn {
+  width: 75px;
+  cursor: pointer;
+  background-color: gainsboro;
+  color: black;
+}
